@@ -45,8 +45,8 @@ var author = document.getElementById("author");
 var last = 0;
 var current = 0;
 document.getElementById("quote-btn").onclick = function () {
-    RandomQuote();
     document.getElementById("quote-div").style.display = 'flex';
+    RandomQuote();
 };
 function RandomQuote() {
     current = Math.floor(Math.random() * (quote_arr.length));
