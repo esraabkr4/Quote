@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+}
+
+.quote-div {
+    background-image: url("../images/quote-bg.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    width: 69%;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    display: none;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+.random-quote-div {
+    text-align: center;
+}
+
+.quote-div h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 40px;
+    align-self: center;
+    padding: 0 28px;
+}
+
+.quote-div span {
+    font-style: italic;
+    align-self: flex-end;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#quote-btn {
+    background-image: linear-gradient(to right, brown 0%, burlywood 51%, brown 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#quote-btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
